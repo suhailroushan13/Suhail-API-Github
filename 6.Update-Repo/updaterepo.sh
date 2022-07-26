@@ -1,5 +1,5 @@
 owner=("suhailroushan13")
-token=("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")
+token=("ADD-YOUR-KEY-HERE")
 #Update your repo name
 old_repo_name=("Hello")
 new_repo_name=("Suhail-API-Github")

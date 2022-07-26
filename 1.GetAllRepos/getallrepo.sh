@@ -1,5 +1,5 @@
 owner=("suhailroushan13")
-token=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
+token=("ADD-YOUR-KEY-HERE")
 
 curl \
   -H "Accept: application/vnd.github+json" \

@@ -1,5 +1,5 @@
 owner=("suhailroushan13")
-token=("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")
+token=("ADD-YOUR-KEY-HERE")
 repo_name=("Suhail-API-Test-REPO")
 description=("")
 #if private repo then make it true
