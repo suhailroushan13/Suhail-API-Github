@@ -1,5 +1,5 @@
 owner=("suhailroushan13")
-token=("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")
+token=("YOUR-TOKEN")
 
 num1=("Suhail_MAT10_CS21")
 u1=("suhailroushan13")
