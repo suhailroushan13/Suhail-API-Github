@@ -1,10 +1,34 @@
 usernames=("adnanali-in" "yashsabal-b" "RuqayyahSara" "ishaankaushik91" "suhailroushan13")
-owner=("suhailroushan13")
-repos=("cs21_MAT9_ClassWork")
-token=("ADD-YOUR-TOKEN-HERE")
+owner=("OWNER-USERNAME")
+repos=("REPO-NAME")
+token=("YOUR-TOKEN")
 
 
 
+echo "+++++++++++++++++++"
+echo "Creating Repository"
+echo "+++++++++++++++++++"
+
+#  Here 1 token and 1 num1
+
+curl --location --request POST 'https://api.github.com/user/repos' \
+--header "Authorization: Bearer ${token}" \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "name": "'${repos}'",
+    "description": "This is Your ClassWork Repository for MAT-10 CS21",
+    "homepage": "https://github.com",
+    "private": true,
+    "has_issues": true,
+    "has_projects": true,
+    "has_wiki": true
+}'
+
+echo "+++++++++++++++++++"
+echo "Adding Readme"
+echo "+++++++++++++++++++"
+
+# Here 1 owner and 2 num1
 
 
 git clone git@github.com:${owner}/${repos}.git
@@ -46,7 +70,7 @@ JSON=$(cat << 'EOF'
         "required_status_checks": null,
         "enforce_admins": false,
         "required_pull_request_reviews": {
-            "required_approving_review_count": 0
+            "required_approving_review_count": 1
         },
         "restrictions": null
     }
