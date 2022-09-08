@@ -1,19 +1,19 @@
 owner=("suhailroushan13")
-token=("ADD-YOUR-TOKEN-HERE")
+token=("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")
 
-num1=("Suhail_MAT9_CS21")
+num1=("Suhail_MAT10_CS21")
 u1=("suhailroushan13")
 
-num2=("Adnan_MAT9_CS21")
+num2=("Adnan_MAT10_CS21")
 u2=("adnanali-in")
 
-num3=("Sara_MAT9_CS21")
+num3=("Sara_MAT10_CS21")
 u3=("RuqayyahSara")
 
-num4=("Yash_MAT9_CS21")
+num4=("Yash_MAT10_CS21")
 u4=("yashsabal-b")
 
-num5=("Ishaan_MAT9_CS21")
+num5=("Ishaan_MAT10_CS21")
 u5=("ishaankaushik91")
 
 
@@ -41,7 +41,7 @@ curl --location --request POST 'https://api.github.com/user/repos' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "name": "'${num1}'",
-    "description": "This is Your Private Repository for MAT9 CS21",
+    "description": "This is Your Private Repository for MAT-10 CS21",
     "homepage": "https://github.com",
     "private": true,
     "has_issues": true,
@@ -62,7 +62,7 @@ echo "This Repository has been created Successfully using GitHub API of POST Met
 git add .
 git commit -m "Initial commit"
 git push origin master
-
+cd ..
 
 echo "+++++++++++++++++++"
 echo "Adding Collaborator"
@@ -98,9 +98,9 @@ declare -a repositories=(
 JSON=$(cat << 'EOF'
     {
         "required_status_checks": null,
-        "enforce_admins": true,
+        "enforce_admins": false,
         "required_pull_request_reviews": {
-            "required_approving_review_count": 0
+            "required_approving_review_count": 1
         },
         "restrictions": null
     }
@@ -140,7 +140,7 @@ curl --location --request POST 'https://api.github.com/user/repos' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "name": "'${num2}'",
-    "description": "This is Your Private Repository for MAT9 CS21",
+    "description": "This is Your Private Repository for MAT-10 CS21",
     "homepage": "https://github.com",
     "private": true,
     "has_issues": true,
@@ -161,7 +161,7 @@ echo "This Repository has been created Successfully using GitHub API of POST Met
 git add .
 git commit -m "Initial commit"
 git push origin master
-
+cd ..
 
 echo "+++++++++++++++++++"
 echo "Adding Collaborator"
@@ -197,9 +197,9 @@ declare -a repositories=(
 JSON=$(cat << 'EOF'
     {
         "required_status_checks": null,
-        "enforce_admins": true,
+        "enforce_admins": false,
         "required_pull_request_reviews": {
-            "required_approving_review_count": 0
+            "required_approving_review_count": 1
         },
         "restrictions": null
     }
@@ -238,7 +238,7 @@ curl --location --request POST 'https://api.github.com/user/repos' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "name": "'${num3}'",
-    "description": "This is Your Private Repository for MAT9 CS21",
+    "description": "This is Your Private Repository for MAT-10 CS21",
     "homepage": "https://github.com",
     "private": true,
     "has_issues": true,
@@ -259,7 +259,7 @@ echo "This Repository has been created Successfully using GitHub API of POST Met
 git add .
 git commit -m "Initial commit"
 git push origin master
-
+cd ..
 
 echo "+++++++++++++++++++"
 echo "Adding Collaborator"
@@ -295,9 +295,9 @@ declare -a repositories=(
 JSON=$(cat << 'EOF'
     {
         "required_status_checks": null,
-        "enforce_admins": true,
+        "enforce_admins": false,
         "required_pull_request_reviews": {
-            "required_approving_review_count": 0
+            "required_approving_review_count": 1
         },
         "restrictions": null
     }
@@ -337,7 +337,7 @@ curl --location --request POST 'https://api.github.com/user/repos' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "name": "'${num4}'",
-    "description": "This is Your Private Repository for MAT9 CS21",
+    "description": "This is Your Private Repository for MAT-10 CS21",
     "homepage": "https://github.com",
     "private": true,
     "has_issues": true,
@@ -358,7 +358,7 @@ echo "This Repository has been created Successfully using GitHub API of POST Met
 git add .
 git commit -m "Initial commit"
 git push origin master
-
+cd ..
 
 echo "+++++++++++++++++++"
 echo "Adding Collaborator"
@@ -394,9 +394,9 @@ declare -a repositories=(
 JSON=$(cat << 'EOF'
     {
         "required_status_checks": null,
-        "enforce_admins": true,
+        "enforce_admins": false,
         "required_pull_request_reviews": {
-            "required_approving_review_count": 0
+            "required_approving_review_count": 1
         },
         "restrictions": null
     }
@@ -435,7 +435,7 @@ curl --location --request POST 'https://api.github.com/user/repos' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "name": "'${num5}'",
-    "description": "This is Your Private Repository for MAT9 CS21",
+    "description": "This is Your Private Repository for MAT-10 CS21",
     "homepage": "https://github.com",
     "private": true,
     "has_issues": true,
@@ -456,7 +456,7 @@ echo "This Repository has been created Successfully using GitHub API of POST Met
 git add .
 git commit -m "Initial commit"
 git push origin master
-
+cd ..
 
 echo "+++++++++++++++++++"
 echo "Adding Collaborator"
@@ -492,9 +492,9 @@ declare -a repositories=(
 JSON=$(cat << 'EOF'
     {
         "required_status_checks": null,
-        "enforce_admins": true,
+        "enforce_admins": false,
         "required_pull_request_reviews": {
-            "required_approving_review_count": 0
+            "required_approving_review_count": 1
         },
         "restrictions": null
     }
