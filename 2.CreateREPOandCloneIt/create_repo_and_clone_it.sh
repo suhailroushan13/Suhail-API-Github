@@ -1,5 +1,5 @@
-owner=("suhailroushan13")
-token=("ADD-YOUR-KEY-HERE")
+owner=("viz-nu")
+token=("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")
 repo_name=("Suhail-API-Test-REPO")
 description=("")
 #if private repo then make it true
